@@ -15,8 +15,8 @@ import org.testng.annotations.Test;
 public class TestLocalWebsiteUsingTunnel {
 
 	WebDriver driver = null;
-	String user_name = System.getenv("LT_USERNAME") == null ? "vipul31gupta" : System.getenv("LT_USERNAME");
-	String access_key = System.getenv("LT_ACCESS_KEY") == null ? "3yz1VWF4GjCOlvG9mTYaKBUV45jS8OiEdKlpfkujQiyjEaMWEq"
+	String user_name = System.getenv("LT_USERNAME") == null ? "<lambdatest_username>" : System.getenv("LT_USERNAME");
+	String access_key = System.getenv("LT_ACCESS_KEY") == null ? "<lambdatest_accesskey>"
 			: System.getenv("LT_ACCESS_KEY");
 
 	@BeforeTest
